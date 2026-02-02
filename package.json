@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "emulators": "firebase emulators:start --import=./tmp --export-on-exit"
   },
   "dependencies": {
     "next": "16.1.6",
@@ -22,6 +23,7 @@
     "eslint-config-next": "16.1.6",
     "firebase": "^12.8.0",
     "firebase-admin": "^13.6.0",
+    "firebase-tools": "^15.5.1",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
