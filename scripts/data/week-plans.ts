@@ -20,6 +20,62 @@ type WeekPlan = {
 
 export const weekPlans: WeekPlan[] = [
   {
+    week_start: new Date("2025-12-29T00:00:00+09:00"),
+    week_plan: {
+      mon: { type: "bowl", name: "カツ丼" },
+      tue: { type: "fish", name: "ブリ大根" },
+      wed: { type: "noodle", name: "年越しそば" },
+      thu: { type: "meat", name: "ローストチキン風" },
+      fri: { type: "fried", name: "コロッケ" },
+      sat: { type: "bowl", name: "海鮮丼" },
+      sun: { type: "fish", name: "鯛の塩焼き" },
+    },
+    created_at: new Date(),
+    updated_at: new Date(),
+  },
+  {
+    week_start: new Date("2026-01-05T00:00:00+09:00"),
+    week_plan: {
+      mon: { type: "meat", name: "豚汁" },
+      tue: { type: "fish", name: "鮭の西京焼き" },
+      wed: { type: "noodle", name: "担々麺" },
+      thu: { type: "bowl", name: "麻婆丼" },
+      fri: { type: "fried", name: "アジフライ" },
+      sat: { type: "meat", name: "すき焼き風" },
+      sun: { type: "fish", name: "カレイの煮付け" },
+    },
+    created_at: new Date(),
+    updated_at: new Date(),
+  },
+  {
+    week_start: new Date("2026-01-12T00:00:00+09:00"),
+    week_plan: {
+      mon: { type: "fish", name: "サーモンのムニエル" },
+      tue: { type: "meat", name: "鶏つくね" },
+      wed: { type: "noodle", name: "カルボナーラ" },
+      thu: { type: "bowl", name: "ビビンバ" },
+      fri: { type: "fried", name: "春巻き" },
+      sat: { type: "meat", name: "肉じゃが" },
+      sun: { type: "fish", name: "イワシの蒲焼き" },
+    },
+    created_at: new Date(),
+    updated_at: new Date(),
+  },
+  {
+    week_start: new Date("2026-01-19T00:00:00+09:00"),
+    week_plan: {
+      mon: { type: "fish", name: "ホッケの塩焼き" },
+      tue: { type: "meat", name: "回鍋肉" },
+      wed: { type: "noodle", name: "ナポリタン" },
+      thu: { type: "bowl", name: "中華丼" },
+      fri: { type: "fried", name: "メンチカツ" },
+      sat: { type: "meat", name: "餃子" },
+      sun: { type: "fish", name: "サバの塩焼き" },
+    },
+    created_at: new Date(),
+    updated_at: new Date(),
+  },
+  {
     week_start: new Date("2026-01-26T00:00:00+09:00"),
     week_plan: {
       mon: { type: "fish", name: "鮭のホイル焼き" },

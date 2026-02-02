@@ -7,12 +7,14 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "emulators": "firebase emulators:start --import=./tmp --export-on-exit"
+    "emulators": "firebase emulators:start --project local --import=./tmp --export-on-exit",
+    "emulators:seed": "FIRESTORE_EMULATOR_HOST=127.0.0.1:8080 GCLOUD_PROJECT=local tsx ./scripts/seed.ts"
   },
   "dependencies": {
     "next": "16.1.6",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "tsx": "^4.21.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

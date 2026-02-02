@@ -16,3 +16,9 @@ export GCLOUD_PROJECT="local"
 ```shell
 npm run emulators
 ```
+
+### Initialize Firestore Emulator
+
+```shell
+npm run emulators:seed
+```
